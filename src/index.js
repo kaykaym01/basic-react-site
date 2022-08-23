@@ -8,7 +8,7 @@ document.body.appendChild(rootDiv);
 
 const page = (
     <div>
-        <img src={reactLogo} width="40px"/>
+        <img src={reactLogo} width="40px" alt="react-logo"/>
         <h1> Fun facts about React </h1>
         <ul>
             <li>Was first released in 2013</li>
