@@ -1,0 +1,21 @@
+{
+  "name": "basic-react-site",
+  "version": "1.0.0",
+  "description": "Basic React Site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaykaym01/basic-react-site.git"
+  },
+  "author": "kaykaym01",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaykaym01/basic-react-site/issues"
+  },
+  "homepage": "https://github.com/kaykaym01/basic-react-site#readme",
+  "dependencies": {
+  }
+}
