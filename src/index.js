@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import reactLogo from "./react-logo.png";
+import "./index.css";
 
 const rootDiv = document.createElement("div");
 rootDiv.setAttribute("id", "root");
