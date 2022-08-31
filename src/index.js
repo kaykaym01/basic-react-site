@@ -7,7 +7,5 @@ const rootDiv = document.createElement("div");
 rootDiv.setAttribute("id", "root");
 document.body.appendChild(rootDiv);
 
-
-
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(<App />);

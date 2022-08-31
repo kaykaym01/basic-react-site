@@ -31,12 +31,6 @@ main, header {
     padding: 10px;
 }
 
-footer {
-    background-color: gray;
-    color: white;
-    padding: 20px;
-}
-
 main {
     flex-grow: 1;
 }
