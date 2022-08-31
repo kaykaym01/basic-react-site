@@ -11,7 +11,13 @@ function Header() {
   return (
     <header>
       <img src={reactLogo} width="40px" alt="react-logo" />
-      <h1> Fun facts about React </h1>
+      <nav className="nav">
+        <ul className="nav-list">
+          <li className="nav-item">About</li>
+          <li className="nav-item">Pricing</li>
+          <li className="nav-item">Contact</li>
+        </ul>
+      </nav>
     </header>
   );
 }
@@ -19,6 +25,7 @@ function Header() {
 function MainContent() {
   return (
     <main>
+      <h1> Fun facts about React </h1>
       <ul>
         <li>Was first released in 2013</li>
         <li>Was originally created by Jordan Walke</li>
@@ -33,7 +40,7 @@ function MainContent() {
 function Footer() {
   return (
     <footer>
-       <small>© 2021 Ziroll development. All rights reserved.</small>
+      <small>© 2021 Ziroll development. All rights reserved.</small>
     </footer>
   );
 }
