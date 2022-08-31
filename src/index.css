@@ -27,14 +27,14 @@ header {
     padding: 10px;
 }
 
-main, header, footer {
+main, header {
     padding: 10px;
-    flex-shrink: 0;
 }
 
 footer {
     background-color: gray;
     color: white;
+    padding: 20px;
 }
 
 main {
