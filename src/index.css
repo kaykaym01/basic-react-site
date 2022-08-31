@@ -6,10 +6,12 @@
     --off-white-color: #deebf8;
 }
 
-body {
+* {
     box-sizing: border-box;
+}
+
+body {
     margin: 0;
-    padding: 0;
     height: 100vh;
     font-family: 'Inter', sans-serif;
 }
@@ -23,7 +25,7 @@ header {
     justify-content: space-between;
     align-items: center;
     box-shadow: 0 3px 5px -2px gray;
-    background-color: var(--med-bg-color);
+    background-color: var(--dark-bg-color);
     padding: 30px 25px;
 }
 
@@ -49,7 +51,13 @@ header {
 }
 
 main {
-    padding: 20px;
+    padding: 35px 27px;
+    background-color: var(--med-bg-color);
+    color: white;
+}
+
+.main-title {
+    font-size: 2.5rem;
 }
 
 main {
@@ -60,5 +68,19 @@ main {
     display: flex;
     flex-direction: column;
     height: 100%;
+}
+
+.facts-list {
+    font-weight: 300;
+}
+
+.facts-list > li::marker {
+    color: var(--blue-accent-color);
+    font-size: 1.4rem;
+}
+
+.facts-list > li{
+    line-height: 19px;
+    padding-block: 10px;
 }
 
