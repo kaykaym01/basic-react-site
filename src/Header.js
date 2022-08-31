@@ -4,14 +4,15 @@ import reactLogo from "./react-logo.png";
 export default function Header() {
   return (
     <header>
-      <img src={reactLogo} width="50px" alt="react-logo" />
-      <nav className="nav">
-        <ul className="nav-list">
-          <li className="nav-item">About</li>
-          <li className="nav-item">Pricing</li>
-          <li className="nav-item">Contact</li>
-        </ul>
-      </nav>
+      <div className="header-left">
+        <div className="logo-div">
+          <img src={reactLogo} alt="react-logo" className="logo" />
+        </div>
+        <p className="title">ReactFacts</p>
+      </div>
+      <div className="header-right">
+        <p className="section-title">React Course - Project 1</p>
+      </div>
     </header>
   );
 }

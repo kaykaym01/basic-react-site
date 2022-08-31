@@ -1,10 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap');
+:root {
+    --blue-accent-color: #61dafb;
+    --dark-bg-color: #21222a;
+    --med-bg-color: #282d35;
+    --off-white-color: #deebf8;
+}
 
 body {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
     height: 100vh;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
 #root {
@@ -16,19 +23,33 @@ header {
     justify-content: space-between;
     align-items: center;
     box-shadow: 0 3px 5px -2px gray;
+    background-color: var(--med-bg-color);
+    padding: 30px 25px;
 }
 
-.nav-list {
-    list-style: none;
+.header-left {
     display: flex;
+    color: var(--blue-accent-color);
+    font-weight: 700;
+    font-size: 1.5rem;
+    align-items: center;
 }
 
-.nav-item {
+.header-right {
+    color: var(--off-white-color);
+    font-weight: 500;
+}
+
+.logo {
+    width: 40px;
+}
+
+.logo-div {
     padding: 10px;
 }
 
-main, header {
-    padding: 10px;
+main {
+    padding: 20px;
 }
 
 main {
