@@ -10,7 +10,7 @@ document.body.appendChild(rootDiv);
 function Header() {
   return (
     <header>
-      <img src={reactLogo} width="40px" alt="react-logo" />
+      <img src={reactLogo} width="50px" alt="react-logo" />
       <nav className="nav">
         <ul className="nav-list">
           <li className="nav-item">About</li>
